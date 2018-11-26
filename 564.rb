@@ -7,12 +7,12 @@ count = 1
   end
 end
 
-if count == 1
-  puts '1st'
-elsif count == 2
-  puts '2nd'
-elsif count == 3
-  puts '3rd'
+if count%10 == 1
+  puts "#{count}st"
+elsif count%10 == 2
+  puts "#{count}nd"
+elsif count%10 == 3
+  puts "#{count}rd"
 else
   puts "#{count}th"
 end
