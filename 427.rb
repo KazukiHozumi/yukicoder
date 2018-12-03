@@ -7,3 +7,4 @@ if r.numerator == 3
 else
   puts 'TATE'
 end
+
