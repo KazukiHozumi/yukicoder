@@ -1,1 +1,1 @@
-s = gets
+s = gets.scan()
