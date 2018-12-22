@@ -1,6 +1,6 @@
-n, p = gets.split
+n, p = gets.split.map(&:to_i)
 
-if p == np
+if p == n*p
   puts '='
 else
   puts '!='
